@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
       <p>Hi I'm</p>
-      <h1 className="text-3xl p-20 font-serif font-bold ">
+      <h1 className="text-3xl ml-10 mr-10 font-serif font-bold ">
       <Image
           src="/jason_waving.jpg"
           alt="Hero Image"
