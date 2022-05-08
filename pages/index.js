@@ -51,7 +51,7 @@ export default function Home() {
             <p>A project built with SVG & Timelines in GSAP3 [a] javaScript animation library</p>
           </a>
 
-          <a href="https://waggin-rights.vercel.app/" className={styles.card}>
+          <a href="https://waggin-rights.vercel.app/" className={styles.card1}>
             <h2>Waggin' Rights &rarr;</h2>
             <Image
           src="/waginnrights.jpg"
@@ -59,7 +59,7 @@ export default function Home() {
           layout="responsive"
           height={200}
           width={200}
-          className="absolute bz-0"
+          className="absolute bz-0 rounded-2xl p-8"
         />
          <p>A new small business site for Emily Griffith for Pet Sitting. Also built with Next.js and Tailwindcss</p>
           
@@ -68,7 +68,7 @@ export default function Home() {
 
           <a
             href="https://estore-swart.vercel.app/"
-            className={styles.card}
+            className={styles.card2}
           >
             <h2>An E-Commerce Example &rarr;</h2>
             <Image
@@ -77,14 +77,14 @@ export default function Home() {
           layout="responsive"
           height={200}
           width={200}
-          className="absolute bz-0"
+          className="absolute bz-0 rounded-2xl"
         />
             <p>TechNutt is an E-Commerce tech store built with Next.js & MongoDB Realm</p>
           </a>
 
           <a
             href="https://teamtreehouse.com/profiles/jdnutt"
-            className={styles.card}
+            className={styles.card3}
           >
             <h2>Treehouse Credentials &rarr;</h2>
             <Image
@@ -93,7 +93,7 @@ export default function Home() {
           layout="responsive"
           height={200}
           width={200}
-          className="absolute bz-0"
+          className="absolute bz-0 rounded-2xl"
         />
             <p>
               These are the Treehouse courses I took to earn my Frontend Tech Degree
