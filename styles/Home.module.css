@@ -101,8 +101,8 @@
 .card:focus,
 .card:active {
     color: #0070f3;
-    border-color: red;
-    background-color: orangered;
+    border-color: #003822;
+    background-color: #003822;
     opacity: 1;
     color: white;
 }
@@ -123,7 +123,7 @@
 .card1:focus,
 .card1:active {
     border-color: black;
-    background-color: rgb(9, 193, 240);
+    background-color: black;
     opacity: 1;
     color: white;
 }

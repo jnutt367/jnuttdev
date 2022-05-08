@@ -15,10 +15,10 @@ export default function Home() {
       
       <h1 className="text-3xl ml-10 mr-10 font-serif font-bold ">
       <a href="https://www.linkedin.com/in/jnuttlovedisciple/"><Image
-          src="/jason-folded-smiling.jpg"
+          src="/jason-smiling.jpg"
           alt="Hero Image"
-          height={150}
-          width={150}
+          height={250}
+          width={250}
           className="absolute bz-0 rounded-b-full rounded-t-full"
         />
         </a>
