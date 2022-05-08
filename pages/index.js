@@ -38,8 +38,8 @@ export default function Home() {
         
 
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
-            <h2>Project 1 &rarr;</h2>
+          <a href="https://jnutt367.github.io/RESOLUTIONS/" className={styles.card}>
+            <h2>GSAP3 SVG animation Project &rarr;</h2>
             <Image
           src="/resolutions.jpg"
           alt="Hero Image"
@@ -48,11 +48,11 @@ export default function Home() {
           width={200}
           className="absolute bz-0 rounded-b-full rounded-t-full"
         />
-            <p>This will be my favorite project. Most likely the E-Store or the Character app</p>
+            <p>A project built with SVG & Timelines in GSAP3 [a] javaScript animation library</p>
           </a>
 
           <a href="https://waggin-rights.vercel.app/" className={styles.card}>
-            <h2>Project 2 &rarr;</h2>
+            <h2>Waggin' Rights &rarr;</h2>
             <Image
           src="/waginnrights.jpg"
           alt="Hero Image"
@@ -61,7 +61,7 @@ export default function Home() {
           width={200}
           className="absolute bz-0"
         />
-         <p>A new small business site for Emily Griffith for Pet Sitting.</p>
+         <p>A new small business site for Emily Griffith for Pet Sitting. Also built with Next.js and Tailwindcss</p>
           
           
           </a>
