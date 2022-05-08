@@ -101,7 +101,7 @@ export default function Home() {
           </a>
 
 
-          <a href="" className={styles.card}>
+          <a href="https://jnutt367.github.io/RESOLUTIONS/" className={styles.card}>
             <h2>Project 1 &rarr;</h2>
             <Image
           src="/resolutions.jpg"
