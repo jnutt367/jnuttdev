@@ -61,14 +61,16 @@ export default function Home() {
           width={200}
           className="absolute bz-0"
         />
-            <p>This will be my 2nd favorite project. Mayb e the animations all in one</p>
+         <p>A new small business site for Emily Griffith for Pet Sitting.</p>
+          
+          
           </a>
 
           <a
-            href=""
+            href="https://estore-swart.vercel.app/"
             className={styles.card}
           >
-            <h2>Project 3 &rarr;</h2>
+            <h2>An E-Commerce Example &rarr;</h2>
             <Image
           src="/technutt.jpg"
           alt="Hero Image"
@@ -77,7 +79,7 @@ export default function Home() {
           width={200}
           className="absolute bz-0"
         />
-            <p>This will hold the Site I'm making for Emily Griffith right now for Pet Sitting.</p>
+            <p>TechNutt is an E-Commerce tech store built with Next.js & MongoDB Realm</p>
           </a>
 
           <a
