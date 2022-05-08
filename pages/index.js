@@ -17,8 +17,8 @@ export default function Home() {
       <a href="https://www.linkedin.com/in/jnuttlovedisciple/"><Image
           src="/jason-smiling.jpg"
           alt="Hero Image"
-          height={250}
-          width={250}
+          height={100}
+          width={100}
           className="absolute bz-0 rounded-b-full rounded-t-full"
         />
         </a>
