@@ -21,7 +21,7 @@ export default function Home() {
           width={150}
           className="absolute bz-0 rounded-b-full rounded-t-full"
         />
-          JasonNutt <a className={styles.title} href="">a MERN Developer!</a>
+          Jason_Nutt <a className={styles.title} href="">[a] MERN Developer!</a>
          
         </h1>
 
@@ -32,6 +32,7 @@ export default function Home() {
           <code className={styles.code}>MongoDB</code>
           in various platforms & built with the Technologies that were the most intuitive to me and had the most opportunity for me to grow.
           <code className={styles.code}>FrontEnd Tech Degree from Team Treehouse {' '}</code>
+          <code className={styles.code}>Currently Attending MongoDB University{' '}</code>
         </p>
         <code className={styles.code}>Here are a few things I have built for Small Businesses & side projects{' '}</code>
         
@@ -39,11 +40,25 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="" className={styles.card}>
             <h2>Project 1 &rarr;</h2>
+            <Image
+          src="/jason_waving.jpg"
+          alt="Hero Image"
+          height={150}
+          width={150}
+          className="absolute bz-0 rounded-b-full rounded-t-full"
+        />
             <p>This will be my favorite project. Most likely the E-Store or the Character app</p>
           </a>
 
           <a href="" className={styles.card}>
             <h2>Project 2 &rarr;</h2>
+            <Image
+          src="/jason_waving.jpg"
+          alt="Hero Image"
+          height={150}
+          width={150}
+          className="absolute bz-0 rounded-b-full rounded-t-full"
+        />
             <p>This will be my 2nd favorite project. Mayb e the animations all in one</p>
           </a>
 
@@ -52,6 +67,13 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Project 3 &rarr;</h2>
+            <Image
+          src="/jason_waving.jpg"
+          alt="Hero Image"
+          height={150}
+          width={150}
+          className="absolute bz-0 rounded-b-full rounded-t-full"
+        />
             <p>This will hold the Site I'm making for Emily Griffith right now for Pet Sitting.</p>
           </a>
 
@@ -60,6 +82,13 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Project 4 &rarr;</h2>
+            <Image
+          src="/jason_waving.jpg"
+          alt="Hero Image"
+          height={150}
+          width={150}
+          className="absolute bz-0 rounded-b-full rounded-t-full"
+        />
             <p>
               I'll put the alternate project that I did not use for Project 1 in here
             </p>
