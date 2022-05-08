@@ -12,15 +12,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <p>Hi I'm</p>
+      
       <h1 className="text-3xl ml-10 mr-10 font-serif font-bold ">
-      <Image
-          src="/jason_waving.jpg"
+      <a href="https://www.linkedin.com/in/jnuttlovedisciple/"><Image
+          src="/jason-folded-smiling.jpg"
           alt="Hero Image"
           height={150}
           width={150}
           className="absolute bz-0 rounded-b-full rounded-t-full"
         />
+        </a>
           Jason_Nutt <a className={styles.title} href="">[a] MERN Developer!</a>
          
         </h1>
@@ -34,10 +35,28 @@ export default function Home() {
           <code className={styles.code}>FrontEnd Tech Degree from Team Treehouse {' '}</code>
           <code className={styles.code}>Currently Attending MongoDB University{' '}</code>
         </p>
-        <code className={styles.code}>Here are a few things I have built for Small Businesses & side projects{' '}</code>
+        <code className={styles.code}>I utilize vercel with github to seemlessly publish & deploy projects.{' '}</code>
+        <code className={styles.code}>Here are a few things I have built for Small Businesses & side projects.{' '}</code>
         
 
         <div className={styles.grid}>
+        <a href="https://waggin-rights.vercel.app/" className={styles.card1}>
+            <h2>Welcome to Waggin Rights &rarr;</h2>
+            <Image
+          src="/waginnrights.jpg"
+          alt="Hero Image"
+          layout="responsive"
+          height={200}
+          width={200}
+          className="absolute bz-0 rounded-2xl p-8"
+        />
+         <p>A small business site for Pet Sitting. Also built with Next.js and Tailwindcss</p>
+          
+          
+          </a>
+        
+
+        
           <a href="https://jnutt367.github.io/RESOLUTIONS/" className={styles.card}>
             <h2>GSAP3 SVG animation Project &rarr;</h2>
             <Image
@@ -51,20 +70,54 @@ export default function Home() {
             <p>A project built with SVG & Timelines in GSAP3 [a] javaScript animation library</p>
           </a>
 
-          <a href="https://waggin-rights.vercel.app/" className={styles.card1}>
-            <h2>Waggin' Rights &rarr;</h2>
+          <a
+            href="https://teamtreehouse.com/profiles/jdnutt"
+            className={styles.card3}
+          >
+            <h2>Team Treehouse Credentials &rarr;</h2>
             <Image
-          src="/waginnrights.jpg"
+          src="/treehouse.jpg"
+          alt="Hero Image"
+          layout="responsive"
+          height={200}
+          width={200}
+          className="absolute bz-0 rounded-2xl"
+        />
+            <p>
+              These are the Treehouse courses I took to earn my Frontend Tech Degree & More ...
+            </p>
+          </a>
+
+          <a href="https://company-of-the-winter-dnd.vercel.app/" className={styles.card4}>
+            <h2> Character Examples App&rarr;</h2>
+            <Image
+          src="/characters.jpg"
+          alt="Hero Image"
+          layout="responsive"
+          height={200}
+          width={200}
+          className="absolute bz-0"
+        />
+            <p>MongoDB & Next.js site that pulls Character examples data from cloud Atlas cluster.</p>
+          </a>
+
+          <a href="https://jnutt367.github.io/Stefanos/" className={styles.card5}>
+            <h2>Stefanos Trattoria Family Italian Cuisine &rarr;</h2>
+            <Image
+          src="/stefanos.jpg"
           alt="Hero Image"
           layout="responsive"
           height={200}
           width={200}
           className="absolute bz-0 rounded-2xl p-8"
         />
-         <p>A new small business site for Emily Griffith for Pet Sitting. Also built with Next.js and Tailwindcss</p>
+         <p>A remake of my former employers website. An Italian Restaurant</p>
           
           
           </a>
+
+
+
 
           <a
             href="https://estore-swart.vercel.app/"
@@ -81,86 +134,12 @@ export default function Home() {
         />
             <p>TechNutt is an E-Commerce tech store built with Next.js & MongoDB Realm</p>
           </a>
-
-          <a
-            href="https://teamtreehouse.com/profiles/jdnutt"
-            className={styles.card3}
-          >
-            <h2>Treehouse Credentials &rarr;</h2>
-            <Image
-          src="/treehouse.jpg"
-          alt="Hero Image"
-          layout="responsive"
-          height={200}
-          width={200}
-          className="absolute bz-0 rounded-2xl"
-        />git 
-            <p>
-              These are the Treehouse courses I took to earn my Frontend Tech Degree
-            </p>
-          </a>
+         
 
 
-          <a href="https://jnutt367.github.io/RESOLUTIONS/" className={styles.card}>
-            <h2>Project 1 &rarr;</h2>
-            <Image
-          src="/resolutions.jpg"
-          alt="Hero Image"
-          layout="responsive"
-          height={200}
-          width={200}
-          className="absolute bz-0 rounded-b-full rounded-t-full"
-        />
-            <p>This will be my favorite project. Most likely the E-Store or the Character app</p>
-          </a>
 
-          <a href="" className={styles.card}>
-            <h2>Project 2 &rarr;</h2>
-            <Image
-          src="/jason_waving.jpg"
-          alt="Hero Image"
-          layout="responsive"
-          height={200}
-          width={200}
-          className="absolute bz-0 rounded-b-full rounded-t-full"
-        />
-            <p>This will be my 2nd favorite project. Mayb e the animations all in one</p>
-          </a>
 
-          <a
-            href=""
-            className={styles.card}
-          >
-            <h2>Project 3 &rarr;</h2>
-            <Image
-          src="/jason_waving.jpg"
-          alt="Hero Image"
-          layout="responsive"
-          height={200}
-          width={200}
-          className="absolute bz-0 rounded-b-full rounded-t-full"
-        />
-            <p>This will hold the Site I'm making for Emily Griffith right now for Pet Sitting.</p>
-          </a>
-
-          <a
-            href=""
-            className={styles.card}
-          >
-            <h2>Project 4 &rarr;</h2>
-            <Image
-          src="/jason_waving.jpg"
-          alt="Hero Image"
-          layout="responsive"
-          height={200}
-          width={200}
-          className="absolute bz-0 rounded-b-full rounded-t-full"
-        />
-            <p>
-              I'll put the alternate project that I did not use for Project 1 in here
-            </p>
-          </a>
-
+         
 
 
 
