@@ -46,7 +46,7 @@ export default function Home() {
           layout="responsive"
           height={200}
           width={200}
-          className="absolute bz-0 rounded-b-full rounded-t-full"
+          className="absolute bz-0 rounded-2xl"
         />
             <p>A project built with SVG & Timelines in GSAP3 [a] javaScript animation library</p>
           </a>
@@ -94,7 +94,7 @@ export default function Home() {
           height={200}
           width={200}
           className="absolute bz-0 rounded-2xl"
-        />
+        />git 
             <p>
               These are the Treehouse courses I took to earn my Frontend Tech Degree
             </p>
