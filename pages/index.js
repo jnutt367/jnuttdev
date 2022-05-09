@@ -12,24 +12,44 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      
+      <code className={styles.code}>Hi I am</code>
       <h1 className="text-3xl ml-10 mr-10 font-serif font-bold ">
-      <a href="https://www.linkedin.com/in/jnuttlovedisciple/"><Image
-          src="/jason-smiling.jpg"
-          alt="Hero Image"
-          height={100}
-          width={100}
-          className="absolute bz-0 rounded-b-full rounded-t-full"
-        />
-        </a>
+      
           Jason_Nutt <a className={styles.title} href="">[a] MERN Developer!</a>
          
         </h1>
+        <a href="https://github.com/jnutt367">
+        <Image
+          src="/Octocat.jpg"
+          alt="Hero Image"
+          height={50}
+          width={50}
+          className="absolute bz-0"
+        />
+        </a>
+        <a href="https://www.linkedin.com/in/jnuttlovedisciple/"><Image
+          src="/jason-smiling.jpg"
+          alt="Hero Image"
+          height={200}
+          width={200}
+          className="absolute bz-0 rounded-b-full rounded-t-full"
+        />
 
+        </a>
+        <a href="https://www.linkedin.com/in/jnuttlovedisciple/">
+        <Image
+          src="/LI-In-Bug.png"
+          alt="Hero Image"
+          height={50}
+          width={50}
+          className="absolute bz-0"
+        />
+        </a>
+        
         <p className={styles.description}>
           I build most projects with <code className={styles.code}>Next.js {' '}</code> &
           <code className={styles.code}>MongoDB.</code>
-          I have studied  <code className={styles.code}>javascript HTML5 CSS3 React/Next.js {' '}</code> &
+          I have studied  <code className={styles.code}>javascript HTML5 CSS3 React/Next.js GSAP {' '}</code> &
           <code className={styles.code}>MongoDB</code>
           in various platforms & built with the Technologies that were the most intuitive to me and had the most opportunity for me to grow.
           <code className={styles.code}>FrontEnd Tech Degree from Team Treehouse {' '}</code>
@@ -37,7 +57,7 @@ export default function Home() {
         </p>
         <code className={styles.code}>I utilize vercel with github to seemlessly publish & deploy projects.{' '}</code>
         <code className={styles.code}>Here are a few things I have built for Small Businesses & side projects.{' '}</code>
-        
+        <code className={styles.code}>How I can best utilize my skill set & help your company to succeed{' '}</code>
 
         <div className={styles.grid}>
         <a href="https://waggin-rights.vercel.app/" className={styles.card1}>

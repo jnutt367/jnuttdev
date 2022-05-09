@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.cat {
+    margin-left: 200px;
+}
+
 .footer {
     display: flex;
     flex: 1;
