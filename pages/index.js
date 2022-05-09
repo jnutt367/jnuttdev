@@ -28,7 +28,7 @@ export default function Home() {
         />
         </a>
         <a href="https://www.linkedin.com/in/jnuttlovedisciple/"><Image
-          src="/jason-smiling.jpg"
+          src="/jason_waving.jpg"
           alt="Hero Image"
           height={200}
           width={200}
