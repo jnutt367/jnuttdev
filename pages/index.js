@@ -18,8 +18,9 @@ export default function Home() {
       <a className={styles.title} href="">Jason_Nutt [a] MERN Developer!</a>
          
         </h1>
-      
-        <a href="https://www.linkedin.com/in/jnuttlovedisciple/"><Image
+      <div className={styles.pic}> 
+        <a href="https://www.linkedin.com/in/jnuttlovedisciple/">
+        <Image
           src="/jason_waving.jpg"
           alt="Hero Image"
           height={200}
@@ -28,6 +29,7 @@ export default function Home() {
         />
 
         </a>
+        </div>
         <div className={styles.icons}>
         <a href="https://www.linkedin.com/in/jnuttlovedisciple/">
         <Image

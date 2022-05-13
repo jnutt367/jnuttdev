@@ -53,9 +53,13 @@
 }
 
 .description {
-    margin: 4rem 0;
+    margin: 4rem 3rem;
     line-height: 1.5;
     font-size: 1.5rem;
+}
+
+.pic {
+    margin-top: 3rem;
 }
 
 .image {
