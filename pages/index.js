@@ -18,16 +18,17 @@ export default function Home() {
       <a className={styles.title} href="">Jason_Nutt [a] MERN Developer!</a>
          
         </h1>
-       
+      
         <a href="https://www.linkedin.com/in/jnuttlovedisciple/"><Image
           src="/jason_waving.jpg"
           alt="Hero Image"
           height={200}
           width={200}
-          className="absolute bz-0 rounded-b-full rounded-t-full"
+          className={styles.image}
         />
 
         </a>
+        <div className={styles.icons}>
         <a href="https://www.linkedin.com/in/jnuttlovedisciple/">
         <Image
           src="/LI-In-Bug.png"
@@ -45,7 +46,9 @@ export default function Home() {
           width={50}
           className="absolute bz-0"
         />
+       
         </a>
+        </div>
         <p className={styles.description}>
         <code className={styles.code}>I build most projects with Next.js {' '} &
           <code className={styles.code}>MongoDB.</code>
