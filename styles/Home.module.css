@@ -12,10 +12,6 @@
     align-items: center;
 }
 
-.cat {
-    margin-left: 200px;
-}
-
 .footer {
     display: flex;
     flex: 1;
@@ -45,6 +41,7 @@
 
 .title {
     margin: 0;
+    margin-bottom: 3rem;
     line-height: 1.15;
     font-size: 4rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -105,8 +102,8 @@
 .card:focus,
 .card:active {
     color: #0070f3;
-    border-color: #003822;
-    background-color: #003822;
+    border-color: grey;
+    background-color: rgb(85, 85, 107);
     opacity: 1;
     color: white;
 }
@@ -126,8 +123,8 @@
 .card1:hover,
 .card1:focus,
 .card1:active {
-    border-color: black;
-    background-color: black;
+    border-color: grey;
+    background-color: rgb(85, 85, 107);
     opacity: 1;
     color: white;
 }
@@ -160,8 +157,8 @@
 .card2:focus,
 .card2:active {
     color: #0070f3;
-    border-color: #0070f3;
-    background-color: #003822;
+    border-color: grey;
+    background-color: rgb(85, 85, 107);
     opacity: 1;
     color: white;
 }
@@ -193,9 +190,8 @@
 .card3:hover,
 .card3:focus,
 .card3:active {
-    color: #0070f3;
-    border-color: green;
-    background-color: black;
+    border-color: grey;
+    background-color: rgb(85, 85, 107);
     opacity: 1;
     color: white;
 }
@@ -227,9 +223,8 @@
 .card4:hover,
 .card4:focus,
 .card4:active {
-    color: #0070f3;
-    border-color: green;
-    background-color: #003822;
+    border-color: grey;
+    background-color: rgb(85, 85, 107);
     opacity: 1;
     color: white;
 }
@@ -262,8 +257,8 @@
 .card5:focus,
 .card5:active {
     color: #0070f3;
-    border-color: green;
-    background-color: black;
+    border-color: grey;
+    background-color: rgb(85, 85, 107);
     opacity: 1;
     color: white;
 }
@@ -289,5 +284,11 @@
     .grid {
         width: 100%;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 769px) {
+    .title {
+        font-size: 2rem;
     }
 }

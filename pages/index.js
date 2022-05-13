@@ -15,18 +15,10 @@ export default function Home() {
       <code className={styles.code}>Hi I am</code>
       <h1 className="text-3xl ml-10 mr-10 font-serif font-bold ">
       
-          Jason_Nutt <a className={styles.title} href="">[a] MERN Developer!</a>
+      <a className={styles.title} href="">Jason_Nutt [a] MERN Developer!</a>
          
         </h1>
-        <a href="https://github.com/jnutt367">
-        <Image
-          src="/Octocat.jpg"
-          alt="Hero Image"
-          height={50}
-          width={50}
-          className="absolute bz-0"
-        />
-        </a>
+       
         <a href="https://www.linkedin.com/in/jnuttlovedisciple/"><Image
           src="/jason_waving.jpg"
           alt="Hero Image"
@@ -42,23 +34,32 @@ export default function Home() {
           alt="Hero Image"
           height={50}
           width={50}
+          className="absolute bz-0 mt-10"
+        />
+        </a>
+        <a href="https://github.com/jnutt367">
+        <Image
+          src="/Octocat.jpg"
+          alt="Hero Image"
+          height={50}
+          width={50}
           className="absolute bz-0"
         />
         </a>
-        
         <p className={styles.description}>
-          I build most projects with <code className={styles.code}>Next.js {' '}</code> &
+        <code className={styles.code}>I build most projects with Next.js {' '} &
           <code className={styles.code}>MongoDB.</code>
-          I have studied  <code className={styles.code}>javascript HTML5 CSS3 React/Next.js GSAP {' '}</code> &
+          <code className={styles.code}> I have studied  </code> <code className={styles.code}>javascript HTML5 CSS3 React/Next.js GSAP {' '}</code> &
           <code className={styles.code}>MongoDB</code>
           in various platforms & built with the Technologies that were the most intuitive to me and had the most opportunity for me to grow.
-          <code className={styles.code}>FrontEnd Tech Degree from Team Treehouse {' '}</code>
+         FrontEnd Tech Degree from Team Treehouse {' '}</code>
           <code className={styles.code}>Currently Attending MongoDB University{' '}</code>
         </p>
+        <p className={styles.description}>
         <code className={styles.code}>I utilize vercel with github to seemlessly publish & deploy projects.{' '}</code>
         <code className={styles.code}>Here are a few things I have built for Small Businesses & side projects.{' '}</code>
         <code className={styles.code}>How I can best utilize my skill set & help your company to succeed{' '}</code>
-
+        </p>
         <div className={styles.grid}>
         <a href="https://waggin-rights.vercel.app/" className={styles.card1}>
             <h2>Welcome to Waggin Rights &rarr;</h2>
@@ -77,36 +78,9 @@ export default function Home() {
         
 
         
-          <a href="https://jnutt367.github.io/RESOLUTIONS/" className={styles.card}>
-            <h2>GSAP3 SVG animation Project &rarr;</h2>
-            <Image
-          src="/resolutions.jpg"
-          alt="Hero Image"
-          layout="responsive"
-          height={200}
-          width={200}
-          className="absolute bz-0 rounded-2xl"
-        />
-            <p>A project built with SVG & Timelines in GSAP3 [a] javaScript animation library</p>
-          </a>
+          
 
-          <a
-            href="https://teamtreehouse.com/profiles/jdnutt"
-            className={styles.card3}
-          >
-            <h2>Team Treehouse Credentials &rarr;</h2>
-            <Image
-          src="/treehouse.jpg"
-          alt="Hero Image"
-          layout="responsive"
-          height={200}
-          width={200}
-          className="absolute bz-0 rounded-2xl"
-        />
-            <p>
-              These are the Treehouse courses I took to earn my Frontend Tech Degree & More ...
-            </p>
-          </a>
+         
 
           <a href="https://company-of-the-winter-dnd.vercel.app/" className={styles.card4}>
             <h2> Character Examples App&rarr;</h2>
@@ -156,7 +130,23 @@ export default function Home() {
           </a>
          
 
-
+          <a
+            href="https://teamtreehouse.com/profiles/jdnutt"
+            className={styles.card3}
+          >
+            <h2>Team Treehouse Credentials &rarr;</h2>
+            <Image
+          src="/treehouse.jpg"
+          alt="Hero Image"
+          layout="responsive"
+          height={200}
+          width={200}
+          className="absolute bz-0 rounded-2xl"
+        />
+            <p>
+              These are the Treehouse courses I took to earn my Frontend Tech Degree & More ...
+            </p>
+          </a>
 
 
          
