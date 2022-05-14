@@ -67,7 +67,7 @@ export default function Home() {
         </p>
 
 <hr />
-        <h1 className="text-3xl ml-10 mr-10 mb-20 font-serif font-bold ">
+        <h1 className="text-3xl ml-10 mr-10 mb-20 mt-20 font-serif font-bold ">
       
       <a className={styles.title} href="">PROJECTS</a>
          

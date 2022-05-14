@@ -1,4 +1,7 @@
 .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
     padding: 0 2rem;
     max-width: 1400px;
 }
@@ -60,7 +63,7 @@
 }
 
 .pic {
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .image {
@@ -69,10 +72,10 @@
 }
 
 .icons {
-    margin-top: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
     display: flex;
     flex-direction: row-reverse;
-    flex-grow: inherit;
 }
 
 .code {
@@ -85,6 +88,7 @@
 
 .grid {
     display: flex;
+    margin-top: 6rem;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
