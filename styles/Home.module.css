@@ -1,5 +1,6 @@
 .container {
     padding: 0 2rem;
+    max-width: 1400px;
 }
 
 .main {
@@ -75,7 +76,7 @@
 }
 
 .code {
-    background: #fafafa;
+    background: transparent;
     border-radius: 5px;
     padding: 0.75rem;
     font-size: 1.1rem;
@@ -87,7 +88,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1800px;
+    max-width: 1400px;
 }
 
 .card {

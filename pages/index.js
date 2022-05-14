@@ -52,22 +52,29 @@ export default function Home() {
         </a>
         </div>
         <p className={styles.description}>
-        <code className={styles.code}>I build most projects with Next.js {' '} &
+        <code className={styles.code}>I build most projects with Next.js {' '} &</code>
           <code className={styles.code}>MongoDB.</code>
-          <code className={styles.code}> I have studied  </code> <code className={styles.code}>javascript HTML5 CSS3 React/Next.js GSAP {' '}</code> &
+          <code className={styles.code}> I have studied  </code> <code className={styles.code}>javascript HTML5 CSS3 React/Next.js GSAP  &{' '}</code>
           <code className={styles.code}>MongoDB</code>
-          in various platforms & built with the Technologies that were the most intuitive to me and had the most opportunity for me to grow.
+          <code className={styles.code}>in various platforms & built with the Technologies that were the most intuitive to me and had the most opportunity for me to grow.
          FrontEnd Tech Degree from Team Treehouse {' '}</code>
           <code className={styles.code}>Currently Attending MongoDB University{' '}</code>
         </p>
         <p className={styles.description}>
         <code className={styles.code}>I utilize vercel with github to seemlessly publish & deploy projects.{' '}</code>
         <code className={styles.code}>Here are a few things I have built for Small Businesses & side projects.{' '}</code>
-        <code className={styles.code}>How I can best utilize my skill set & help your company to succeed{' '}</code>
+        <code className={styles.code}>How can I best utilize my skill set & help your company to succeed{' '}</code>
         </p>
+
+<hr />
+        <h1 className="text-3xl ml-10 mr-10 mb-20 font-serif font-bold ">
+      
+      <a className={styles.title} href="">PROJECTS</a>
+         
+        </h1>
         <div className={styles.grid}>
         <a href="https://waggin-rights.vercel.app/" className={styles.card1}>
-            <h2>Welcome to Waggin Rights &rarr;</h2>
+            <h2>Welcome to Waggin Rights</h2>
             <Image
           src="/waginnrights.jpg"
           alt="Hero Image"
@@ -88,7 +95,7 @@ export default function Home() {
          
 
           <a href="https://company-of-the-winter-dnd.vercel.app/" className={styles.card4}>
-            <h2> Character Examples App&rarr;</h2>
+            <h2> Character Examples App</h2>
             <Image
           src="/characters.jpg"
           alt="Hero Image"
@@ -101,7 +108,7 @@ export default function Home() {
           </a>
 
           <a href="https://jnutt367.github.io/Stefanos/" className={styles.card5}>
-            <h2>Stefanos Trattoria Family Italian Cuisine &rarr;</h2>
+            <h2>Stefanos Trattoria Family Italian Cuisine</h2>
             <Image
           src="/stefanos.jpg"
           alt="Hero Image"
@@ -122,7 +129,7 @@ export default function Home() {
             href="https://estore-swart.vercel.app/"
             className={styles.card2}
           >
-            <h2>An E-Commerce Example &rarr;</h2>
+            <h2>An E-Commerce Example</h2>
             <Image
           src="/technutt.jpg"
           alt="Hero Image"
@@ -139,7 +146,7 @@ export default function Home() {
             href="https://teamtreehouse.com/profiles/jdnutt"
             className={styles.card3}
           >
-            <h2>Team Treehouse Credentials &rarr;</h2>
+            <h2>Team Treehouse Credentials</h2>
             <Image
           src="/treehouse.jpg"
           alt="Hero Image"
