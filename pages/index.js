@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <code className={styles.code}>Hi I am</code>
+      <code className={styles.intro}>Hi I am</code>
       <h1 className="text-3xl ml-10 mr-10 font-serif font-bold ">
       
       <a className={styles.title} href=""> Jason Nutt : MERN Developer</a>

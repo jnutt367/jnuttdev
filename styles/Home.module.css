@@ -16,6 +16,10 @@
     max-width: 1400px;
 }
 
+.intro {
+    margin-bottom: 6rem;
+}
+
 .footer {
     display: flex;
     flex: 1;
@@ -46,6 +50,7 @@
 .title {
     margin: 0;
     margin-bottom: 5rem;
+    margin-top: 5rem;
     line-height: 1.15;
     font-size: 4rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -318,8 +323,20 @@
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1020px) {
     .title {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .title {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .title {
+        font-size: 1.rem;
     }
 }
