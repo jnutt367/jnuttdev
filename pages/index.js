@@ -15,7 +15,7 @@ export default function Home() {
       <code className={styles.code}>Hi I am</code>
       <h1 className="text-3xl ml-10 mr-10 font-serif font-bold ">
       
-      <a className={styles.title} href="">Jason_Nutt [a] MERN Developer!</a>
+      <a className={styles.title} href=""> Jason Nutt : MERN Developer</a>
          
         </h1>
       <div className={styles.pic}> 

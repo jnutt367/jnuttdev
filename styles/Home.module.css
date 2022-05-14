@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     padding: 0 2rem;
-    max-width: 1400px;
 }
 
 .main {
@@ -14,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1400px;
 }
 
 .footer {
@@ -132,6 +132,8 @@
 .card h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.75rem;
 }
 
 .card p {
@@ -153,6 +155,8 @@
 .card1 h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.75rem;
 }
 
 .card1 p {
@@ -187,6 +191,8 @@
 .card2 h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.75rem;
 }
 
 .card2 p {
@@ -220,6 +226,8 @@
 .card3 h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.75rem;
 }
 
 .card3 p {
@@ -252,7 +260,8 @@
 
 .card4 h2 {
     margin: 0 0 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .card4 p {
@@ -286,7 +295,8 @@
 
 .card5 h2 {
     margin: 0 0 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .card5 p {
