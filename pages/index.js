@@ -15,7 +15,7 @@ export default function Home() {
       <code className={styles.intro}>Hi I am</code>
       <h1 className="text-3xl ml-10 mr-10 font-serif font-bold ">
       
-      <a className={styles.title} href=""> Jason Nutt : MERN Developer</a>
+      <a className={styles.title} href="https://github.com/jnutt367"> Jason Nutt : MERN Developer</a>
          
         </h1>
       <div className={styles.pic}> 
@@ -40,9 +40,9 @@ export default function Home() {
           className="absolute bz-0 mt-10"
         />
         </a>
-        <a href="https://github.com/jnutt367">
+        <a className={styles.github} href="https://github.com/jnutt367">
         <Image
-          src="/Octocat.jpg"
+          src="/github_logo_black.png"
           alt="Hero Image"
           height={50}
           width={50}
@@ -73,7 +73,7 @@ export default function Home() {
          
         </h1>
         <div className={styles.grid}>
-        <a href="https://waggin-rights.vercel.app/" className={styles.card1}>
+        <a href="https://waggin-rights.vercel.app/" className={styles.card}>
             <h2>Welcome to Waggin Rights</h2>
             <Image
           src="/waginnrights.jpg"
@@ -94,7 +94,7 @@ export default function Home() {
 
          
 
-          <a href="https://company-of-the-winter-dnd.vercel.app/" className={styles.card4}>
+          <a href="https://company-of-the-winter-dnd.vercel.app/" className={styles.card}>
             <h2> Character Examples App</h2>
             <Image
           src="/characters.jpg"
@@ -107,7 +107,7 @@ export default function Home() {
             <p>MongoDB & Next.js site that pulls Character examples data from cloud Atlas cluster.</p>
           </a>
 
-          <a href="https://jnutt367.github.io/Stefanos/" className={styles.card5}>
+          <a href="https://jnutt367.github.io/Stefanos/" className={styles.card}>
             <h2>Stefanos Trattoria Family Italian Cuisine</h2>
             <Image
           src="/stefanos.jpg"
@@ -127,7 +127,7 @@ export default function Home() {
 
           <a
             href="https://estore-swart.vercel.app/"
-            className={styles.card2}
+            className={styles.card}
           >
             <h2>An E-Commerce Example</h2>
             <Image
@@ -144,7 +144,7 @@ export default function Home() {
 
           <a
             href="https://teamtreehouse.com/profiles/jdnutt"
-            className={styles.card3}
+            className={styles.card}
           >
             <h2>Team Treehouse Credentials</h2>
             <Image
