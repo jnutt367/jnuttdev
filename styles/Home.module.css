@@ -114,7 +114,7 @@
     text-decoration: none;
     border: 1px solid #eaeaea;
     border-radius: 10px;
-    transition: color 0.15s ease, border-color 0.15s ease;
+    transition: color 0.75s ease, border-color 0.15s ease;
     max-width: 300px;
 }
 
@@ -126,7 +126,7 @@
     text-decoration: none;
     border: 1px solid #eaeaea;
     border-radius: 10px;
-    transition: color 0.15s ease, border-color 0.15s ease;
+    transition: color 4.95s ease, border-color 0.15s ease;
     max-width: 300px;
 }
 
@@ -135,7 +135,7 @@
 .card:active {
     color: #0070f3;
     border-color: grey;
-    background-color: grey;
+    background-color: white;
     opacity: 1;
     color: black;
 }
@@ -320,6 +320,7 @@
 .logo {
     height: 1em;
     margin-left: 0.5rem;
+    background-color: white;
 }
 
 @media (max-width: 600px) {
