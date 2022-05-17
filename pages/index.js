@@ -46,7 +46,7 @@ export default function Home() {
           alt="Hero Image"
           height={50}
           width={50}
-          className="absolute bz-0"
+          className="absolute bz-0 rounded-b-full rounded-t-full"
         />
        
         </a>
