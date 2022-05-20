@@ -52,12 +52,12 @@ export default function Home() {
         </a>
         </div>
         <p className={styles.description}>
-        <code className={styles.code}>I build most projects with Next.js {' '} &</code>
-          <code className={styles.code}>MongoDB.</code>
-          <code className={styles.code}> I have studied  </code> <code className={styles.code}>javascript HTML5 CSS3 React/Next.js GSAP  &{' '}</code>
-          <code className={styles.code}>MongoDB</code>
-          <code className={styles.code}>in various platforms & built with the Technologies that were the most intuitive to me and had the most opportunity for me to grow.
-         FrontEnd Tech Degree from Team Treehouse {' '}</code>
+        <code className={styles.code}>I build most projects with Next.js {' '} & MongoDB.</code>
+          <code className={styles.code}> I have studied  
+          javascript HTML5 CSS3 React/Next.js GSAP  &{' '}
+         MongoDB
+          in various platforms & built with the Technologies that were the most intuitive to me and had the most opportunity for me to grow.</code>
+         <code className={styles.code}>FrontEnd Tech Degree from Team Treehouse {' '}</code>
           <code className={styles.code}>Currently Attending MongoDB University{' '}</code>
         </p>
         <p className={styles.description}>
