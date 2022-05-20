@@ -73,7 +73,7 @@ export default function Home() {
          
         </h1>
         <div className={styles.grid}>
-        <a href="https://waggin-rights.vercel.app/" className={styles.card}>
+        <a href="https://the-holy-bible.vercel.app/" className={styles.card}>
             <h2>The Holy Bible New Testament</h2>
             <Image
           src="/bible_app.jpg"
