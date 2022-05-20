@@ -74,6 +74,23 @@ export default function Home() {
         </h1>
         <div className={styles.grid}>
         <a href="https://waggin-rights.vercel.app/" className={styles.card}>
+            <h2>The Holy Bible New Testament</h2>
+            <Image
+          src="/bible_app.jpg"
+          alt="Hero Image"
+          layout="responsive"
+          height={200}
+          width={200}
+          className="absolute bz-0 rounded-2xl p-8"
+        />
+         <p>A digital writing and publication of the Holy Word of God. Animated by Me.</p>
+          
+          
+          </a>
+        
+
+
+        <a href="https://waggin-rights.vercel.app/" className={styles.card}>
             <h2>Welcome to Waggin Rights</h2>
             <Image
           src="/waginnrights.jpg"
