@@ -21,10 +21,10 @@ export default function Home() {
       <div className={styles.pic}> 
         <a href="https://www.linkedin.com/in/jnuttlovedisciple/">
         <Image
-          src="/jason_waving.jpg"
+          src="/undraw_developer_activity_re_39tg.svg"
           alt="Hero Image"
-          height={200}
-          width={200}
+          height={400}
+          width={900}
           className={styles.image}
         />
 
@@ -60,6 +60,20 @@ export default function Home() {
         FrontEnd Tech Degree from Team Treehouse {' '}
          Currently Attending MongoDB University{' '}</code>
         </p>
+
+        <div className={styles.pic}> 
+        <a href="https://www.linkedin.com/in/jnuttlovedisciple/">
+        <Image
+          src="/undraw_hacker_mind_-6-y85.svg"
+          alt="Hero Image"
+          height={400}
+          width={900}
+          className={styles.image}
+        />
+
+        </a>
+        </div>
+
         <p className={styles.description}>
         <code className={styles.code}>I utilize vercel with github to seemlessly publish & deploy projects.{' '}
         Here are a few things I have built for Small Businesses & side projects.{' '}
@@ -67,6 +81,20 @@ export default function Home() {
         </p>
 
 <hr />
+
+<div className={styles.pic}> 
+        <a href="https://www.linkedin.com/in/jnuttlovedisciple/">
+        <Image
+          src="/undraw_feeling_proud_qne1.svg"
+          alt="Hero Image"
+          height={400}
+          width={900}
+          className={styles.image}
+        />
+
+        </a>
+        </div>
+
         <h1 className="text-3xl ml-10 mr-10 mb-20 mt-20 font-serif font-bold ">
       
       PROJECTS
