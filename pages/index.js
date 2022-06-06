@@ -52,31 +52,53 @@ export default function Home() {
         </a>
         </div>
         <p className={styles.description}>
-        <code className={styles.code}>I build most projects with Next.js {' '} & MongoDB.</code>
-          <code className={styles.code}> I have studied  
+        <code className={styles.code}>I build most projects with Next.js {' '} & MongoDB.
+           I have studied  
           javascript HTML5 CSS3 React/Next.js GSAP  &{' '}
          MongoDB
-          in various platforms & built with the Technologies that were the most intuitive to me and had the most opportunity for me to grow.</code>
-         <code className={styles.code}>FrontEnd Tech Degree from Team Treehouse {' '}</code>
-          <code className={styles.code}>Currently Attending MongoDB University{' '}</code>
+          in various platforms & built with the Technologies that were the most intuitive to me and had the most opportunity for me to grow.
+        FrontEnd Tech Degree from Team Treehouse {' '}
+         Currently Attending MongoDB University{' '}</code>
         </p>
         <p className={styles.description}>
-        <code className={styles.code}>I utilize vercel with github to seemlessly publish & deploy projects.{' '}</code>
-        <code className={styles.code}>Here are a few things I have built for Small Businesses & side projects.{' '}</code>
-        <code className={styles.code}>How can I best utilize my skill set & help your company to succeed{' '}</code>
+        <code className={styles.code}>I utilize vercel with github to seemlessly publish & deploy projects.{' '}
+        Here are a few things I have built for Small Businesses & side projects.{' '}
+        How can I best utilize my skill set & help your company to succeed{' '}</code>
         </p>
 
 <hr />
         <h1 className="text-3xl ml-10 mr-10 mb-20 mt-20 font-serif font-bold ">
       
-      <a className={styles.title} href="">PROJECTS</a>
+      PROJECTS
          
         </h1>
+
+
+
         <div className={styles.grid}>
+
+       
+        <a href="https://hlsm.us" className={styles.card}>
+            <h2>HLSM Land Surveying</h2>
+            <Image
+          src="/hlsm.jpg"
+          alt="Hero Image"
+          layout="responsive"
+          height={200}
+          width={200}
+          className="absolute bz-0 rounded-2xl p-8"
+        />
+         <p>A Website that I built for a Central Florida Land Survey Company made with Domain.com CMS</p>
+          
+          
+          </a>
+
+
+
         <a href="https://the-holy-bible.vercel.app/" className={styles.card}>
             <h2>The Holy Bible New Testament</h2>
             <Image
-          src="/bible_app.jpg"
+          src="/holy_bible.jpg"
           alt="Hero Image"
           layout="responsive"
           height={200}
