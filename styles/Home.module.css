@@ -362,4 +362,7 @@
         .card:hover {
             background-color: grey;
         }
+        .github {
+            background-image: url(/Octocat.jpg);
+        }
     }

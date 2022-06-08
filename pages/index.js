@@ -42,7 +42,7 @@ export default function Home() {
         </a>
         <a className={styles.github} href="https://github.com/jnutt367">
         <Image
-          src="/github_logo_black.png"
+          src="/Octocat.jpg"
           alt="Hero Image"
           height={50}
           width={50}
