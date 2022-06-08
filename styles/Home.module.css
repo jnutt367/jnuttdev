@@ -115,6 +115,7 @@
         text-decoration: none;
         border: 1px solid #eaeaea;
         border-radius: 10px;
+        background-color: black;
         transition: color 0.75s ease, border-color 0.15s ease;
         max-width: 300px;
     }
@@ -136,7 +137,7 @@
     .card:active {
         color: #0070f3;
         border-color: grey;
-        background-color: white;
+        background-color: silver;
         opacity: 1;
         color: black;
     }
@@ -339,6 +340,14 @@
             background-color: silver;
             color: black;
         }
+        .card:hover,
+        .card:focus,
+        .card:active {
+            background-color: grey;
+        }
+        .card {
+            color: white;
+        }
     }
     
     @media (max-width: 580px) {
@@ -359,8 +368,12 @@
             background-color: white;
             color: black;
         }
+        .card {
+            background-color: white;
+            color: black;
+        }
         .card:hover {
-            background-color: grey;
+            background-color: rgb(163, 200, 233);
         }
         .github {
             background-image: url(/Octocat.jpg);
