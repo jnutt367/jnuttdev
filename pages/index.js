@@ -15,7 +15,7 @@ export default function Home() {
       <code className={styles.intro}>Hi I am</code>
       <h1 className="text-3xl ml-10 mr-10 font-serif font-bold ">
       
-      <a className={styles.title} href="https://github.com/jnutt367"> Jason Nutt : MERN Developer</a>
+      <a className={styles.title} href="https://github.com/jnutt367"> Jason Nutt  MERN Developer</a>
          
         </h1>
       <div className={styles.pic}> 
@@ -42,7 +42,7 @@ export default function Home() {
         </a>
         <a className={styles.github} href="https://github.com/jnutt367">
         <Image
-          src="/Octocat.jpg"
+          src="/github-octocat-logo-black-and-white.png"
           alt="Hero Image"
           height={50}
           width={50}
@@ -82,18 +82,7 @@ export default function Home() {
 
 <hr />
 
-<div className={styles.pic}> 
-        <a href="https://www.linkedin.com/in/jnuttlovedisciple/">
-        <Image
-          src="/undraw_feeling_proud_qne1.svg"
-          alt="Hero Image"
-          height={400}
-          width={900}
-          className={styles.image}
-        />
 
-        </a>
-        </div>
 
         <h1 className="text-3xl ml-10 mr-10 mb-20 mt-20 font-serif font-bold ">
       
@@ -208,8 +197,36 @@ export default function Home() {
             <p>TechNutt is an E-Commerce tech store built with Next.js & MongoDB Realm</p>
           </a>
          
+        
+       
+     </div>
+      </main>
+      <div className={styles.footer}>
+          <div className={styles.pic}> 
+        <a href="https://www.linkedin.com/in/jnuttlovedisciple/">
+        <Image
+          src="/undraw_feeling_proud_qne1.svg"
+          alt="Hero Image"
+          height={400}
+          width={900}
+          className={styles.image}
+        />
 
-          <a
+        </a>
+    
+        </div>
+
+       
+        </div>
+
+      
+        <div className={styles.main1}>
+        <h1 className="text-3xl ml-10 mr-10 mb-20 mt-20 font-serif font-bold ">
+      
+      EDUCATION
+         
+        </h1>
+        <a
             href="https://teamtreehouse.com/profiles/jdnutt"
             className={styles.card}
           >
@@ -226,16 +243,7 @@ export default function Home() {
               These are the Treehouse courses I took to earn my Frontend Tech Degree & More ...
             </p>
           </a>
-
-
-         
-
-
-
-
-        </div>
-      </main>
-
+          </div>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

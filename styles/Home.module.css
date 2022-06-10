@@ -7,7 +7,27 @@
         padding: 0 2rem;
     }
     
+    .github {
+        background-color: white;
+        color: white;
+        opacity: 0.2;
+        border-radius: 50%;
+        margin-right: 3rem;
+    }
+    
     .main {
+        min-height: 100vh;
+        padding: 4rem 0;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1400px;
+    }
+    
+    .main1 {
+        margin-top: -500px;
         min-height: 100vh;
         padding: 4rem 0;
         flex: 1;
@@ -22,10 +42,6 @@
         margin-bottom: 3rem;
     }
     
-    .github {
-        margin-right: 3rem;
-    }
-    
     .footer {
         display: flex;
         flex: 1;
@@ -33,6 +49,7 @@
         border-top: 1px solid #eaeaea;
         justify-content: center;
         align-items: center;
+        margin-top: -50px;
     }
     
     .footer a {
@@ -115,7 +132,7 @@
         text-decoration: none;
         border: 1px solid #eaeaea;
         border-radius: 10px;
-        background-color: black;
+        background-color: grey;
         transition: color 0.75s ease, border-color 0.15s ease;
         max-width: 300px;
     }
@@ -340,6 +357,10 @@
             background-color: silver;
             color: black;
         }
+        .github {
+            background-color: silver;
+            opacity: 1;
+        }
         .card:hover,
         .card:focus,
         .card:active {
@@ -358,6 +379,19 @@
             background-color: grey;
             color: black;
         }
+        .github {
+            background-color: grey;
+            margin-right: 3rem;
+        }
+        .card {
+            background-color: silver;
+            border-color: black;
+            color: black;
+        }
+        .card:hover {
+            background-color: black;
+            color: white;
+        }
     }
     
     @media (max-width: 420px) {
@@ -369,11 +403,11 @@
             color: black;
         }
         .card {
-            background-color: white;
+            background-color: silver;
             color: black;
         }
         .card:hover {
-            background-color: rgb(163, 200, 233);
+            background-color: rgb(132, 134, 136);
         }
         .github {
             background-image: url(/Octocat.jpg);
