@@ -115,7 +115,7 @@ export default function Home() {
         <a href="https://the-holy-bible.vercel.app/" className={styles.card}>
             <h2>The Holy Bible New Testament</h2>
             <Image
-          src="/holy_bible.jpg"
+          src="/bible_short.jpg"
           alt="Hero Image"
           layout="responsive"
           height={200}
@@ -152,28 +152,28 @@ export default function Home() {
 
           <a href="https://company-of-the-winter-dnd.vercel.app/" className={styles.card}>
             <h2> Character Examples App</h2>
-            <Image
-          src="/characters.jpg"
+            <Image className={styles.card}
+          src="/character_app.jpg"
           alt="Hero Image"
           layout="responsive"
           height={200}
           width={200}
-          className="absolute bz-0"
+          
         />
             <p>MongoDB & Next.js site that pulls Character examples data from cloud Atlas cluster.</p>
           </a>
 
           <a href="https://jnutt367.github.io/Stefanos/" className={styles.card}>
-            <h2>Stefanos Trattoria Family Italian Cuisine</h2>
+            <h2>Stefanos Trattoria Italian Cuisine</h2>
             <Image
-          src="/stefanos.jpg"
+          src="/stefanos_site.jpg"
           alt="Hero Image"
           layout="responsive"
           height={200}
           width={200}
           className="absolute bz-0 rounded-2xl p-8"
         />
-         <p>A remake of my former employers website. An Italian Restaurant</p>
+         <p>A remake of my former employers website. An Italian  Family Restaurant & Bar</p>
           
           
           </a>
